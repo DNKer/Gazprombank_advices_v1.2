@@ -1,0 +1,41 @@
+.cards {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.cards__item {
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    width: calc((100% - 1 * 32px) / 2);  
+}
+
+.card {
+    display: flex;
+    min-height: 300px;
+    background-color: #476BF0;
+    height: 100%;
+    padding: 32px;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.card--credit {
+    background-color: #E7EFFF;
+}
+
+.card--union-pay {
+    background-color: #476BF0;
+}
+
+.card--dismissal {
+    background-color: #CFF6E7;
+}
+
+.card--benefits {
+    background-color: #C4E7FF;
+}

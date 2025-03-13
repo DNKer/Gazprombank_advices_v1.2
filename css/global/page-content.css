@@ -1,0 +1,12 @@
+.page-content {
+    margin: 0;  
+  }
+  
+  .page-content__list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
