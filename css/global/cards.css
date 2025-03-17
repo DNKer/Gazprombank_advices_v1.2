@@ -114,3 +114,58 @@
 .card--benefits {
     background-color: #C4E7FF;
 }
+
+
+
+.cards--tile {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.cards--tile .cards__item {
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    width: calc((100% / 4 - 1 * 32px / 4));
+}
+
+.card--tile  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+    background-color: #476BF0;
+    height: 100%;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #E7EFFF;  
+}
+
+.card--tile .card__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.card--tile .card__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.card--tile .card__image {
+    width: 210px;
+    height: 135px;
+    margin: 0 0 25px 0;
+}
+
+.card--tile .card__detailed {
+    margin: 0 calc(100% / 2 - 32px * 2);
+}
