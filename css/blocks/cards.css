@@ -20,7 +20,7 @@
     justify-content: left;
     min-height: 300px;
     background-color: #476BF0;
-    height: 100%;
+
     padding: 32px;
     border-radius: 12px;
     background-color: #E7EFFF;    
@@ -66,11 +66,6 @@
     padding: 10px 31px;
     width: 140px;
     margin: auto 0 0 0;
-}
-
-.card__image {
-    width: 280px;
-    height: 180px;  
 }
 
 .card--union-pay {
@@ -126,48 +121,56 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    padding: 0;
 }
 
 .cards--tile .cards__item {
     list-style-type: none;
     padding: 0;
     width: calc((100% - 32px * (4 - 1)) / 4);
+    height: 100%;
 }
 
 .card--tile  {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 200px;
-    height: 100%;
+    min-height: 200px; */
     padding: 32px 38px 20px;
     border-radius: 12px;
-    background-color: #E7EFFF;  
+    background-color: #E7EFFF;
+    align-items: center;
+    min-height: 400px;
 }
+
 
 .card--tile .card__wrapper {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-}
+
+}  
 
 .card--tile .card__inner {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
 }
+
 
 .card--tile .card__image {
     width: 210px;
     height: 135px;
-    /* margin-bottom: 25px; */
 }
 
-.card--tile .card__title {
+
+.card--tile .card__label {
+    color: #1E222E80;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards--tile .card__title {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -175,13 +178,22 @@
     margin: 8px 0;
 }
 
-.card--tile .card__description,
+.card--tile .card__description {
+    /* display: flex;*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
 .card--tile .card__detailed {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;    
 }
+
+
 
 .card--union-pay {
     background-color: #476BF0;

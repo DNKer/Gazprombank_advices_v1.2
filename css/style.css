@@ -1,8 +1,8 @@
 @import "global/container.css";
-@import "global/cards.css";
 @import "global/fonts.css";
 @import "global/reboot.css";
 
+@import "blocks/cards.css";
 @import "blocks/header.css";
 @import "blocks/breadcrumbs.css";
 @import "blocks/page-content.css";
