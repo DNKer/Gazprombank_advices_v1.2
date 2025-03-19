@@ -127,41 +127,33 @@
     list-style-type: none;
     padding: 0;
     width: calc((100% - 32px * (4 - 1)) / 4);
-    height: 100%;
 }
 
 .card--tile  {
     /* display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 200px; */
-    padding: 32px 38px 20px;
+    min-height: 200px; 
+    padding: 32px 38px 20px;*/
+    padding: 32px 20px 20px;
     border-radius: 12px;
     background-color: #E7EFFF;
     align-items: center;
     min-height: 400px;
 }
 
-
-.card--tile .card__wrapper {
+.cards--tile .card__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }  
 
-.card--tile .card__inner {
+.cards--tile .card__inner {
   align-items: center;
 }
 
-
-.card--tile .card__image {
-    width: 210px;
-    height: 135px;
-}
-
-
-.card--tile .card__label {
+.cards--tile .card__label {
     color: #1E222E80;
     font-weight: 500;
     font-size: 10px;
@@ -178,27 +170,37 @@
     margin: 8px 0;
 }
 
-.card--tile .card__description {
-    /* display: flex;*/
+.cards--tile .card__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
 }
 
-.card--tile .card__detailed {
+.cards--tile .card__detailed {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;    
 }
 
-
-
-.card--union-pay {
-    background-color: #476BF0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+.cards--tile .card--union-pay .card__title {
     text-align: center;
+}
+
+.cards--tile .card--union-pay .card__label {
+    color: #FFFFFF80;
+    border: 1px solid #FFFFFF80
+}
+
+.cards--tile .card--union-pay {
+    background-color: #476BF0;
+}
+
+.cards--tile .card--dismissal {
+    background-color: #CFF6E7;
+}
+
+.cards--tile .card--benefits {
+    background-color: #C4E7FF;
 }
